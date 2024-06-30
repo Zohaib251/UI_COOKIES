@@ -42,7 +42,6 @@ function App() {
         </div>
         {/*Card Section  */}
         <div className="Card">
-          {/* Each Card component represents a feature with an icon, title, and description */}
           <Card
             iconClass="icon-phone"
             title="Mobile Optimize"
@@ -64,9 +63,7 @@ function App() {
         </div>
         {/*Features Section  */}
         <div className="Features" id="features-section">
-          {/* Heading for the Features section */}
           <Heading_Desc title="Features" />
-          {/* Each Features_Card component represents a feature with an image, title, and description */}
           <Features_Card
             title="Big Benefits for Small Business"
             image={Feature_img1}

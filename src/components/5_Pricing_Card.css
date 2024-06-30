@@ -82,16 +82,16 @@ button.custom-button {
   border: none;
   cursor: pointer;
 }
-/*? This changed color of 2nd card   */
+/*? This changed color of middle pricing card   */
 .custom-button.hover-blue {
   background-color: #1a57a5;
   transition: 0.5s;
 }
-/*? Hover for 2nd card button  */
+/*? Hover effect for middle card button  */
 .custom-button.hover-blue:hover {
   background-color: #103463;
 }
-/*? Hover for 1st and 3rd button  */
+/*? Hover effect for 1st and 3rd button  */
 .custom-button.hover-black:hover {
   background-color: #262626;
   transition: 0.5s;
