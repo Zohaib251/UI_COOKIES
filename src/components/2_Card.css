@@ -1,0 +1,80 @@
+div.card {
+  margin-left: 6%;
+  margin-bottom: 10%;
+  color: #ffffff;
+}
+div.feature-card {
+  text-align: left;
+  background: white;
+  max-width: 85%;
+  height: 100%;
+}
+span.feature-image {
+  color: #1a57a5;
+  font-size: 7ch;
+  font-weight: 300;
+  text-decoration: none solid rgb(26, 87, 165);
+}
+h6.feature-title {
+  font-size: 4vh;
+  font-weight: 500;
+  color: #1a57a5;
+  margin-top: 10%;
+}
+p.feature-description {
+  color: #73767c;
+  font-weight: 400;
+  font-size: 3vh;
+  font-stretch: 100%;
+  margin: 9% 0;
+  margin-bottom: 9%;
+  line-height: 1.5;
+}
+a.feature-link {
+  color: #174b8f;
+  text-decoration: none;
+  position: relative;
+  font-size: 3vh;
+}
+.icon-right {
+  color: #1c4f91;
+  font-size: 2.2vh;
+}
+.feature-link:hover .icon-right {
+  text-decoration: underline;
+  transform: translateX(10px);
+  transition: 0.6s;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 0 auto 20px auto;
+    width: 90%;
+  }
+
+  .feature-card {
+    max-width: 100%;
+  }
+
+  .feature-image {
+    font-size: 5ch; 
+  }
+
+  .feature-title {
+    font-size: 3vh;
+    margin-top: 5%;
+  }
+
+  .feature-description {
+    font-size: 2.5vh;
+    margin: 5% 0;
+  }
+
+  .feature-link {
+    font-size: 2.5vh;
+  }
+
+  .icon-right {
+    font-size: 2vh;
+  }
+}

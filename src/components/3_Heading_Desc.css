@@ -1,0 +1,47 @@
+div.heading {
+  padding-top: 10%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h2.title {
+  font-weight: 500;
+  font-size: 5ch;
+  line-height: 72.5px;
+  vertical-align: baseline;
+  padding: 0% 0% 1%;
+}
+hr {
+  width: 5.5%;
+  height: 1.5%;
+  margin-left: 47%;
+  padding-bottom: 0.1%;
+  margin-bottom: 3%;
+  background-color: #1a57a5;
+}
+p.description {
+  color: RGB(115, 118, 124);
+  line-height: 27.2px;
+  font-weight: 400;
+  font-stretch: 100%;
+  margin: 0% 0% 3%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  h2.title {
+    font-size: 3ch;
+     line-height: 1;
+  }
+
+  p.description {
+    margin: 0 auto;
+    max-width: 90%; 
+  }
+
+  hr {
+    width: 10%; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

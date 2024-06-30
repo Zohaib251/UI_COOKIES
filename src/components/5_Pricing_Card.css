@@ -1,0 +1,103 @@
+div.pricing_card {
+  margin-left: 4.2%;
+  padding: 7% 0%;
+}
+div.price_box {
+  width: 93%;
+  padding: 6%;
+  border: 1px solid #eee;
+  background-color: #fff;
+  flex: 1 0 auto;
+}
+
+h2.titles {
+  font-size: 100%;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10% 0% 5%;
+  line-height: 1.2;
+  color: rgba(0, 0, 0);
+}
+
+div.price {
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+div.price b {
+  display: block;
+  text-align: center;
+  font-size: 370%;
+  font-weight: 300;
+  color: RGB(26, 87, 165);
+  margin-bottom: 16%;
+}
+
+div.price span {
+  font-size: 90%;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  color: RGB(189, 189, 189);
+}
+
+div.features {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 100%;
+  margin-bottom: 5%;
+  line-height: 1.7;
+  font-weight: 400;
+  color: RGB(115, 118, 124);
+  display: flex;
+  align-items: center;
+}
+
+li span.icon {
+  color: #1a57a5;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+div.button {
+  text-align: center;
+  padding: 12%;
+}
+
+button.custom-button {
+  color: RGB(255, 255, 255);
+  background-color: RGB(0, 0, 0);
+  font-size: 100%;
+  font-weight: 400;
+  padding: 7% 20%;
+  border: none;
+  cursor: pointer;
+}
+/*? This changed color of 2nd card   */
+.custom-button.hover-blue {
+  background-color: #1a57a5;
+  transition: 0.5s;
+}
+/*? Hover for 2nd card button  */
+.custom-button.hover-blue:hover {
+  background-color: #103463;
+}
+/*? Hover for 1st and 3rd button  */
+.custom-button.hover-black:hover {
+  background-color: #262626;
+  transition: 0.5s;
+}
+
+.featured-card {
+  z-index: 1;
+  box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.05) !important;
+}

@@ -1,0 +1,38 @@
+div.Footer_Container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 4%;
+}
+a.icons {
+  color: #769ac9;
+  font-weight: 400;
+  text-decoration: none;
+  border: none;
+  font-size: 5vh;
+  padding: 1%;
+}
+a.icons:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+div.copyWrite {
+  display: block;
+  padding-top: 4%;
+}
+div.copyWrite p {
+  color: RGB(255, 255, 255);
+  font-size: 3vh;
+  font-weight: 400;
+  line-height: 5vh;
+  padding: 0% 1.5%;
+}
+p a {
+    font-size:3vh;
+  color: #7399C8;
+  text-decoration: none;
+}
+p a:hover {
+  color: #fff;
+  transition: 0.5s;
+}

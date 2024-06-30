@@ -1,0 +1,65 @@
+div.Join_Card {
+  background-color: #1a57a5;
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+}
+
+div.Cards {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h2.Join_Card_Title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 3.3ch; 
+  margin: 2% 0;
+  line-height: 1;
+  padding: 4% 0 0; 
+}
+
+p.Join_Card_Description {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.8ch; 
+  line-height: 3ch;
+  font-weight: 400;
+  margin: 0 20% 3%;
+  width: 60%;
+}
+
+button#buttons {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.8ch; 
+  padding: 1% 3.3%; 
+  border: none;
+}
+
+button#buttons:hover {
+  background-color: #262626;
+  transition: 0.5s;
+}
+
+
+@media only screen and (max-width: 768px) {
+  h2.Join_Card_Title {
+    font-size: 2.2ch;
+
+    padding: 3% 0 0; 
+  }
+
+  p.Join_Card_Description {
+    font-size: 1.5ch; 
+    width: 80%; 
+    margin: 0 auto 3%; 
+    text-align: left; 
+  }
+
+  button#buttons {
+    font-size: 1.5ch; 
+    padding: 2.5% 5%; 
+  }
+}

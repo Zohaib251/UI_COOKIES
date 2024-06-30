@@ -1,0 +1,39 @@
+div.Question_card {
+  width: 44%;
+  margin-left: 2%;
+}
+
+span.icon-checkmark {
+  color: #1a57a5;
+}
+
+div h4.heading {
+  font-size: 2ch;
+  color: RGB(0, 0, 0);
+  line-height: 1;
+  font-weight: 500;
+  margin: 1% 0% 4%;
+  padding: 0 7%;
+}
+
+p.Answer {
+  color: RGB(115, 118, 124);
+  font-size: 95%;
+  line-height: 200%;
+  margin: 0% 0% 3%;
+  font-weight: 400;
+  padding: 0 7%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.Question_card {
+    width: 95%; 
+    justify-content: center;
+    margin-left: 0; 
+  }
+  h4.heading{
+    font-size: 1ch;
+    width:90%;
+    line-height: 2;
+  }
+}
