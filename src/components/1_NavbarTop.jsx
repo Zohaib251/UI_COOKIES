@@ -6,8 +6,6 @@ const NavbarTop = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
 
-  //this is hook to handle scroll
-
   useEffect(() => {
     const handleScroll = () => {
       const isTop = window.scrollY < 10;

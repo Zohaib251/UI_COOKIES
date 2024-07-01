@@ -47,6 +47,7 @@ div.Review_Cards {
 /*? Question Answer Section */
 div.Question_button {
   text-align: center;
+
 }
 
 div.Question_button button {
@@ -91,6 +92,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  div.App{
+    width:100%;
+    overflow-x: hidden;
+  }
 
   div.header {
     padding-bottom: 10%;
@@ -122,6 +127,10 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+  div.App{
+    overflow-x: hidden;
+    width:100%;
+  }
  
   div.header {
     padding-bottom: 5%;
