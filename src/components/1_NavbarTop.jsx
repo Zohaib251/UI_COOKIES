@@ -11,6 +11,8 @@ const NavbarTop = () => {
       const isTop = window.scrollY < 10;
       setScrolled(!isTop);
 
+      //comment
+
       const featuresSection = document.getElementById("features-section");
       const pricingSection = document.getElementById("pricing-section");
       const reviewSection = document.getElementById("review-section");
