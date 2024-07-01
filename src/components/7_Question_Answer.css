@@ -24,16 +24,28 @@ p.Answer {
   font-weight: 400;
   padding: 0 7%;
 }
-
 @media only screen and (max-width: 768px) {
   div.Question_card {
-    width: 95%; 
+    width: 95%;
     justify-content: center;
-    margin-left: 0; 
+    margin-left: 0;
   }
-  h4.heading{
+  h4.heading {
     font-size: 1ch;
-    width:90%;
-    line-height: 2;
+    width: 90%;
+    line-height: 3;
+  }
+}
+
+@media (min-width: 2560px) {
+  div.Question_card {
+    margin-left: 4%;
+  }
+  div h4.heading {
+    font-size: 2.5rem;
+  }
+  p.Answer {
+    font-size: 1.7rem;
+    width: 90%;
   }
 }

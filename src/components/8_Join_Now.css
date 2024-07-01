@@ -15,15 +15,15 @@ div.Cards {
 h2.Join_Card_Title {
   color: #ffffff;
   font-weight: 500;
-  font-size: 3.3ch; 
+  font-size: 3.3ch;
   margin: 2% 0;
   line-height: 1;
-  padding: 4% 0 0; 
+  padding: 4% 0 0;
 }
 
 p.Join_Card_Description {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.8ch; 
+  font-size: 1.8ch;
   line-height: 3ch;
   font-weight: 400;
   margin: 0 20% 3%;
@@ -33,8 +33,8 @@ p.Join_Card_Description {
 button#buttons {
   background-color: #000000;
   color: #ffffff;
-  font-size: 1.8ch; 
-  padding: 1% 3.3%; 
+  font-size: 1.8ch;
+  padding: 1% 3.3%;
   border: none;
 }
 
@@ -43,23 +43,38 @@ button#buttons:hover {
   transition: 0.5s;
 }
 
-
 @media only screen and (max-width: 768px) {
   h2.Join_Card_Title {
     font-size: 2.2ch;
 
-    padding: 3% 0 0; 
+    padding: 3% 0 0;
   }
 
   p.Join_Card_Description {
-    font-size: 1.5ch; 
-    width: 80%; 
-    margin: 0 auto 3%; 
-    text-align: left; 
+    font-size: 1.5ch;
+    width: 80%;
+    margin: 0 auto 3%;
+    text-align: left;
   }
 
   button#buttons {
-    font-size: 1.5ch; 
-    padding: 2.5% 5%; 
+    font-size: 1.5ch;
+    padding: 2.5% 5%;
+  }
+}
+
+@media (min-width: 2560px) {
+  div.Cards {
+    margin-left: 5%;
+    width: 91%;
+  }
+  h2.Join_Card_Title {
+    font-size: 2.7rem;
+  }
+  p.Join_Card_Description {
+    font-size: 1.9rem;
+  }
+  button#buttons {
+    font-size: 1.7rem;
   }
 }

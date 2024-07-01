@@ -55,6 +55,18 @@ div.user-name {
 
 @media only screen and (max-width: 768px) {
   div.review-card {
-    width: 85%; 
+    width: 60%;
+  }
+}
+
+@media (min-width: 2560px) {
+  div.review-text {
+    font-size: 2.21rem;
+  }
+  span.icon {
+    font-size: 2rem;
+  }
+  div.user-name {
+    font-size: 1.3rem;
   }
 }

@@ -47,7 +47,6 @@ div.Review_Cards {
 /*? Question Answer Section */
 div.Question_button {
   text-align: center;
-
 }
 
 div.Question_button button {
@@ -92,8 +91,8 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  div.App{
-    width:100%;
+  div.App {
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -127,11 +126,11 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-  div.App{
+  div.App {
     overflow-x: hidden;
-    width:100%;
+    width: 100%;
   }
- 
+
   div.header {
     padding-bottom: 5%;
   }
@@ -165,5 +164,22 @@ footer {
   }
   div.Question_button button {
     padding: 2% 4% 2% 4%;
+  }
+}
+@media (min-width: 1440px) {
+  div.image_container {
+    margin-left: 8%;
+  }
+}
+
+@media (min-width: 2560px) {
+  div.Question_button button {
+    font-size: 2rem;
+  }
+  div.image_container {
+    margin-left: 26%;
+    height: 100%;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
   }
 }

@@ -27,21 +27,42 @@ p.description {
   margin: 0% 0% 3%;
 }
 
-
 @media only screen and (max-width: 600px) {
   h2.title {
     font-size: 3ch;
-     line-height: 1;
+    line-height: 1;
   }
 
   p.description {
     margin: 0 auto;
-    max-width: 90%; 
+    max-width: 90%;
   }
 
   hr {
-    width: 10%; 
+    width: 10%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h2.title {
+    font-size: 3.3ch;
+  }
+  p.description {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+
+@media (min-width: 2560px) {
+  h2.title {
+    font-size: 10ch;
+  }
+  p.description {
+    font-size: 4ch;
+    line-height: 3cap;
+  }
+  hr {
+    margin-top: 1%;
   }
 }

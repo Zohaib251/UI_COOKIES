@@ -29,6 +29,6 @@ Card.propTypes = {
   customTitleStyle: PropTypes.object,
 };
 Card.defaultProps = {
-  customTitleStyle: {}, 
+  customTitleStyle: {},
 };
 export default Card;

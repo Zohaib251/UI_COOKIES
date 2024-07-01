@@ -57,7 +57,7 @@ a.feature-link {
   }
 
   .feature-image {
-    font-size: 5ch; 
+    font-size: 5ch;
   }
 
   .feature-title {
@@ -76,5 +76,14 @@ a.feature-link {
 
   .icon-right {
     font-size: 2vh;
+  }
+}
+
+@media (min-width: 2560px) {
+  span.feature-image {
+    font-size: 10ch;
+  }
+  p.feature-description {
+    font-size: 2.05rem;
   }
 }

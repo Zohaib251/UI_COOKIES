@@ -4,7 +4,9 @@ import "./3_Heading_Desc.css";
 const Heading_Desc = (props) => {
   return (
     <div className="heading">
-      <h2 className="title" style={props.customTitleStyle}>{props.title}</h2>
+      <h2 className="title" style={props.customTitleStyle}>
+        {props.title}
+      </h2>
       <hr />
       <p className="description">
         Even the all-powerful Pointing has no control about the blind texts it
