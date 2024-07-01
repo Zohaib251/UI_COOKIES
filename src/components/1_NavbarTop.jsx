@@ -16,21 +16,21 @@ const NavbarTop = () => {
       const reviewSection = document.getElementById("review-section");
       const questionSection = document.getElementById("question-section");
 
-      if (window.scrollY < featuresSection.offsetTop) {
+      if (window.scrollY <= featuresSection.offsetTop) {
         setActiveSection("home-section");
       } else if (
         window.scrollY >= featuresSection.offsetTop &&
-        window.scrollY < pricingSection.offsetTop
+        window.scrollY <= pricingSection.offsetTop
       ) {
         setActiveSection("features-section");
       } else if (
         window.scrollY >= pricingSection.offsetTop &&
-        window.scrollY < reviewSection.offsetTop
+        window.scrollY <= reviewSection.offsetTop
       ) {
         setActiveSection("pricing-section");
       } else if (
         window.scrollY >= reviewSection.offsetTop &&
-        window.scrollY < questionSection.offsetTop
+        window.scrollY <= questionSection.offsetTop
       ) {
         setActiveSection("review-section");
       } else {
