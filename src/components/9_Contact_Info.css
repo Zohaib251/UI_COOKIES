@@ -90,7 +90,7 @@ p strong {
   }
 }
 
-@media (max-width: 1366px){
+@media (min-width: 1366px){
   div.Contact_Submit_Form {
     margin-left: 10%;
   }
