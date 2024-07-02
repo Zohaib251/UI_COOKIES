@@ -173,6 +173,10 @@ footer {
 }
 
 @media (min-width: 2560px) {
+  div.App {
+    overflow-x: hidden;
+    width: 100%;
+  }
   div.Question_button button {
     font-size: 2rem;
   }
@@ -181,5 +185,16 @@ footer {
     height: 100%;
     margin-top: -2rem;
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 2825px)
+{
+  div.App {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  div.image_container{
+    margin-left: 29%;
   }
 }

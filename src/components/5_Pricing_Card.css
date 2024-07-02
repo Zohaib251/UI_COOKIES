@@ -107,10 +107,6 @@ button.custom-button {
   }
 }
 @media only screen and (min-width: 2560px) {
-  div.price_box{
-    margin-left:35%;
-
-  }
   h2.titles {
     font-size: 1.5rem;
   }
@@ -125,3 +121,4 @@ button.custom-button {
     font-size: 2.5rem;
   }
 }
+
