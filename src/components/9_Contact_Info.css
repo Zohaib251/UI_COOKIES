@@ -89,6 +89,13 @@ p strong {
     font-size: 1.6ch;
   }
 }
+
+@media (max-width: 1366px){
+  div.Contact_Submit_Form {
+    margin-left: 10%;
+  }
+
+}
 @media (min-width: 1440px) {
   div.Contact_Submit_Form {
     margin-left: 7%;

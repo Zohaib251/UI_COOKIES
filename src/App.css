@@ -171,7 +171,11 @@ footer {
     margin-left: 8%;
   }
 }
-
+@media (max-width: 1366px){
+  div.image_container{
+    margin-left: 6%;
+  }
+}
 @media (min-width: 2560px) {
   div.App {
     overflow-x: hidden;
