@@ -29,6 +29,10 @@ div.Pricing {
 
 div.pricing_cards {
   display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /*? Review Section */
@@ -36,14 +40,12 @@ div.Review {
   background-color: #d6e6f2;
   padding-bottom: 15%;
 }
-
 div.Review_Cards {
   margin-top: 8%;
-  margin-left: 1%;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
-
 /*? Question Answer Section */
 div.Question_button {
   text-align: center;
@@ -63,11 +65,16 @@ div.Question_button button:hover {
 
 div.image_container {
   padding-top: 10%;
-  margin-left: 2%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 div.image_container img {
   max-width: 100%;
+  height: auto;
 }
 
 div.Question_Answer_Card {
@@ -166,16 +173,6 @@ footer {
     padding: 2% 4% 2% 4%;
   }
 }
-@media (min-width: 1440px) {
-  div.image_container {
-    margin-left: 8%;
-  }
-}
-@media (min-width: 1366px){
-  div.image_container{
-    margin-left: 6%;
-  }
-}
 @media (min-width: 2560px) {
   div.App {
     overflow-x: hidden;
@@ -184,21 +181,11 @@ footer {
   div.Question_button button {
     font-size: 2rem;
   }
-  div.image_container {
-    margin-left: 26%;
-    height: 100%;
-    margin-top: -2rem;
-    margin-bottom: 2rem;
-  }
 }
-
 @media only screen and (min-width: 2825px)
 {
   div.App {
     overflow-x: hidden;
     width: 100%;
-  }
-  div.image_container{
-    margin-left: 29%;
   }
 }

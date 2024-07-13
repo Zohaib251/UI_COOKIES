@@ -3,12 +3,13 @@ div.Join_Card {
   width: 100%;
   height: auto;
   padding-bottom: 3%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 div.Cards {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
+  max-width: 80%; 
   text-align: center;
 }
 
@@ -26,7 +27,7 @@ p.Join_Card_Description {
   font-size: 1.8ch;
   line-height: 3ch;
   font-weight: 400;
-  margin: 0 20% 3%;
+  margin: 0 auto 3%;
   width: 60%;
 }
 
@@ -46,7 +47,6 @@ button#buttons:hover {
 @media only screen and (max-width: 768px) {
   h2.Join_Card_Title {
     font-size: 2.2ch;
-
     padding: 3% 0 0;
   }
 
@@ -64,10 +64,6 @@ button#buttons:hover {
 }
 
 @media (min-width: 2560px) {
-  div.Cards {
-    margin-left: 5%;
-    width: 91%;
-  }
   h2.Join_Card_Title {
     font-size: 2.7rem;
   }
